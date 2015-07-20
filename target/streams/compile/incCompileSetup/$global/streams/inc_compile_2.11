@@ -1,0 +1,201 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+5 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\Cost.class
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData$$anonfun$main$1.class
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData$.class
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData.class
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\Server.class
+binary dependencies:
+9 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> C:\Program Files\Java\jre1.8.0_40\lib\rt.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> D:\Work\Workspace\ivy\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> C:\Program Files\Java\jre1.8.0_40\lib\rt.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\ivy\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.1.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\ivy\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.1.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\ivy\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.1.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> D:\Work\Workspace\ivy\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> C:\Program Files\Java\jre1.8.0_40\lib\rt.jar
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> D:\Work\Workspace\ivy\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+5 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> Cost
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> ImportData
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> ImportData$
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> ImportData$$anonfun$main$1
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> Server
+used names:
+91 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> *
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> +
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> -
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> /
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> <init>
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> AnyRef
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> Cost
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> Double
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> bandwidth_cost
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> bandwidth_delta_t
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> bandwidth_weight
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> cost
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> flow_cost
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> flow_q_is
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> flow_w_f
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> flow_w_r
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> flow_w_t
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> flow_weight
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> math
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> package
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> pow
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> privacy_cost
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> privacy_weight
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> quote_price
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> scala
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> toDouble
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> util
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> $conforms
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> ->
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> <init>
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> ==
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> AnyRef
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Array
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Codec
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> ImportData
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Imports
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Int
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Map
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> MongoClient
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> MongoDBObject
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Predef
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Seq
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> SimpleDateFormat
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Source
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> String
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> Unit
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> apply
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> augmentString
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> casbah
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> coll
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> collection
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> com
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> db
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> fallbackSystemCodec
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> file
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> foreach
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> fromFile
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> getLines
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> gps
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> import_data_from_line
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> insert
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> io
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> java
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> length
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> line
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> mongoClient
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> mongodb
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> num
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> parse
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> println
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> record
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> scala
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> speed
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> split
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> state
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> text
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> timestamp
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> timestampFormat
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> toFloat
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> toInt
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> x$1
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> x$2
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> x$3
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> x$4
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> <init>
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> AnyRef
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> Double
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> Server
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> quote
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> scala
+product stamps:
+5 items
+D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\Cost.class -> lastModified(1437383224999)
+D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData$$anonfun$main$1.class -> lastModified(1437383225108)
+D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData$.class -> lastModified(1437383225049)
+D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData.class -> lastModified(1437383225017)
+D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\Server.class -> lastModified(1437383225111)
+source stamps:
+3 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> hash(1a87ed9790c1604bc715679b45530e11e37c5d9c)
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> hash(f81043a4b6eff2504e5d6caf6a0549fd939e6fcf)
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> hash(af024e026614a1af0ae94a732c4a92399902c548)
+binary stamps:
+5 items
+C:\Program Files\Java\jre1.8.0_40\lib\rt.jar -> lastModified(1425949869024)
+D:\Work\Workspace\ivy\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.1.jar -> lastModified(1429870347000)
+D:\Work\Workspace\ivy\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.1.jar -> lastModified(1429870342000)
+D:\Work\Workspace\ivy\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.1.jar -> lastModified(1428951496000)
+D:\Work\Workspace\ivy\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> lastModified(1435004218000)
+class names:
+5 items
+C:\Program Files\Java\jre1.8.0_40\lib\rt.jar -> java.lang.Object
+D:\Work\Workspace\ivy\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.1.jar -> com.mongodb.casbah.commons.BaseImports
+D:\Work\Workspace\ivy\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.1.jar -> com.mongodb.casbah.MongoCollection
+D:\Work\Workspace\ivy\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.1.jar -> com.mongodb.DBObject
+D:\Work\Workspace\ivy\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> scala.Double
+internal apis:
+3 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByN7CvAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAH3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGb88yB0AAZub3RpZnlzcQB+AAznUM/ZdAAEd2FpdHNxAH4ADCcNzhN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMiIz0Z3QAImNvbXB1dGVfcHJvZmlsZV9wb2xpY3lfZml4ZWRfcHJpY2VzcQB+AAzbmSuJdAAGZXF1YWxzc3EAfgAMdOR86HQADGFzSW5zdGFuY2VPZnNxAH4ADG87aCF0AA5iYW5kd2lkdGhfY29zdHNxAH4ADAgpIF50AAxzeW5jaHJvbml6ZWRzcQB+AAwDJHqXdAANJGlzSW5zdGFuY2VPZnNxAH4ADMVIDI90ABFiYW5kd2lkdGhfZGVsdGFfdHNxAH4ADJhb4iZ0AAxwcml2YWN5X2Nvc3RzcQB+AAyycbtwdAAJbm90aWZ5QWxsc3EAfgAM9EQiv3QADGlzSW5zdGFuY2VPZnNxAH4ADBAFS6l0AAY8aW5pdD5zcQB+AAxbA6JYdAAEY29zdHNxAH4ADH0TzRx0AAI9PXNxAH4ADBk2FDB0AAlmbG93X3FfaXNzcQB+AAxTmCFSdAAIZmxvd193X2ZzcQB+AAxwo1XjdAAFY2xvbmVzcQB+AAxc7idrdAAIdG9TdHJpbmdzcQB+AAzDJpiVdAAJZmxvd19jb3N0c3EAfgAMVWt0d3QAAiE9c3EAfgAMRatv0nQACGdldENsYXNzc3EAfgAMnjD7ZHQABENvc3RzcQB+AAx8CBucdAAIZmxvd193X3RzcQB+AAx8Asi2dAAIZmxvd193X3JzcQB+AAxVaVk5dAACbmVzcQB+AAyAvoGDdAACZXFzcQB+AAwMcNBydAACIyNzcQB+AAxuCN3GdAAIZmluYWxpemVzcQB+AAwnsIZhdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AD11cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AG14cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGwAcHNxAH4AcXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBVTAAJaW5oZXJpdGVkcQB+AFVMAAdwYXJlbnRzcQB+AFV4cQB+AHVzcQB+AGwAcHNxAH4AcXVxAH4AUAAAAABzcQB+AGwAcHNxAH4AcXVxAH4AUAAAAABzcQB+AGwAcHNxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AkXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AknNxAH4AhXQAA0FueXNxAH4AiXNxAH4AjHVxAH4AjwAAAAJzcQB+AJF0AAVzY2FsYXEAfgCYdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6qt0phdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAP0Q6XFdvcmtcV29ya3NwYWNlXFNjYWxhXEdldFRvcE5Qcm9maXRcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBqH7ZeQwWBLxxVnm0VTDhHjfF2c
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDe5rWdAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPwfgPV0AAZub3RpZnlzcQB+AAyibzBcdAAEd2FpdHNxAH4ADL4HB9J0AA0kYXNJbnN0YW5jZU9mc3EAfgAMxeafAHQABmVxdWFsc3NxAH4ADKHlpqR0AARjb2xsc3EAfgAM/LcTqHQADGFzSW5zdGFuY2VPZnNxAH4ADOi1sHt0AAttb25nb0NsaWVudHNxAH4ADFmCjQZ0AAxzeW5jaHJvbml6ZWRzcQB+AAxt++L0dAACZGJzcQB+AAx99ZUXdAANJGlzSW5zdGFuY2VPZnNxAH4ADNPZDox0AARtYWluc3EAfgAM1mJ3/HQACW5vdGlmeUFsbHNxAH4ADAy2prR0AAxpc0luc3RhbmNlT2ZzcQB+AAwU5OETdAAKSW1wb3J0RGF0YXNxAH4ADOBu7Bx0AAI9PXNxAH4ADHrZ0Bh0ABVpbXBvcnRfZGF0YV9mcm9tX2xpbmVzcQB+AAzs7LZLdAAFY2xvbmVzcQB+AAwHOZ9ydAAIdG9TdHJpbmdzcQB+AAxPP/O9dAACIT1zcQB+AAzSeuxVdAAIZ2V0Q2xhc3NzcQB+AAxdtV7JdAACbmVzcQB+AAwL3yMVdAACZXFzcQB+AAxeVuGFdAACIyNzcQB+AAz1uhBmdAAIZmluYWxpemVzcQB+AAxcEWegdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ACl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBheHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBgAHBzcQB+AGVzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBpc3EAfgBgAHBzcQB+AGV1cQB+AEQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEpxAH4AU3VxAH4AVAAAAABzcQB+AFYAcQB+ACN1cQB+AFgAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGhzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIZ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBzeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBbdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB6WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBoc3EAfgB5dAAFQXJyYXlxAH4Af3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgB5dAAGU3RyaW5nc3EAfgB9c3EAfgCAdXEAfgCDAAAAA3NxAH4AhXQABGphdmFzcQB+AIV0AARsYW5ncQB+AIpzcQB+AGAAcHNxAH4AZXVxAH4ARAAAAABzcQB+AGAAcHNxAH4AZXVxAH4AngAAAAJzcQB+AHl0AAZPYmplY3RxAH4AonNxAH4AeXQAA0FueXEAfgB/dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6qt0phdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAP0Q6XFdvcmtcV29ya3NwYWNlXFNjYWxhXEdldFRvcE5Qcm9maXRcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPgQQ6S27/JQTl1sr2oFSf2Tnm/P
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDnX8NSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKWuu7F0AAZub3RpZnlzcQB+AAxXYiaKdAALcXVvdGVfcHJpY2VzcQB+AAyNRslcdAAEd2FpdHNxAH4ADI5t1xR0AA0kYXNJbnN0YW5jZU9mc3EAfgAMR0D8V3QABlNlcnZlcnNxAH4ADCNcJ+J0AAZlcXVhbHNzcQB+AAxaNRPzdAAMYXNJbnN0YW5jZU9mc3EAfgAM+xJu9HQADHN5bmNocm9uaXplZHNxAH4ADA1lTrJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMR0WaRXQACW5vdGlmeUFsbHNxAH4ADC7gHB50AAxpc0luc3RhbmNlT2ZzcQB+AAzuwcAddAAGPGluaXQ+c3EAfgAMBA6nfnQAAj09c3EAfgAMLIwvWnQABWNsb25lc3EAfgAMF6urm3QACHRvU3RyaW5nc3EAfgAMc+bkD3QAAiE9c3EAfgAMTm0R7XQACGdldENsYXNzc3EAfgAMa43sonQAAm5lc3EAfgAM72YeW3QAAmVxc3EAfgAMZUZtWXQAAiMjc3EAfgAMTFa043QACGZpbmFsaXplc3EAfgAMtXnOpHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAXdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBbeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBaAHBzcQB+AF9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBjc3EAfgBaAHBzcQB+AF91cQB+AD4AAAAAc3EAfgBaAHBzcQB+AF91cQB+AD4AAAAAc3EAfgBaAHBzcQB+AF91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGJ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH90AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIBzcQB+AHN0AANBbnlzcQB+AHdzcQB+AHp1cQB+AH0AAAACc3EAfgB/dAAFc2NhbGFxAH4AhnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFOqrdKYXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AD9EOlxXb3JrXFdvcmtzcGFjZVxTY2FsYVxHZXRUb3BOUHJvZml0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSvAk4CZhShrwrpSnMsSpI5mQLFSA==
+external apis:
+0 items
+source infos:
+3 items
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala -> 
+AAAAAAAAAAA=
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala -> 
+AAAAAAAAAAA=
+D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTqq3SmF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAP0Q6XFdvcmtcV29ya3NwYWNlXFNjYWxhXEdldFRvcE5Qcm9maXRcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=

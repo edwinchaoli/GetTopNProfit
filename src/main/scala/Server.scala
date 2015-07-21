@@ -18,9 +18,7 @@ class Server {
   def get_least_time = delta_t
   def get_least_accuracy = q_la
   
-  def compute_data_value(client_q_ir:Double,client_q_la:Double) = {
-    client_q_ir + delta_t + client_q_la
-  }
+  
   
   def get_top_n_client(clients:Array[Client])={
     

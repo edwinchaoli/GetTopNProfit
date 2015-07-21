@@ -17,13 +17,10 @@ class Client {
   
   )
   
-  
-  
-  
+
   val cost_pam:Map[String,Double] = Map(
    
     "flow_q_is" -> Random.nextDouble(),
-
     "flow_weight" -> Random.nextDouble(),
     "bandwidth_weight" -> Random.nextDouble(),
     "privacy_weight" -> Random.nextDouble()
@@ -51,8 +48,12 @@ class Client {
   
  // private val bandwidth_delta_t = 1.0
 
-  private var profit = 0.0
-
+   private var profit:Double = 0.0
+   def Profit = profit
+   private var data_value = 0.0
+   def DataValue = data_value
+  
+ 
   def flow_cost: Double =
     math.pow((flow_w_f * cost_pam("flow_q_is") + flow_w_t), flow_w_r)
   
@@ -78,9 +79,13 @@ class Client {
     satisfied
   }
 
-  def compute_profit_by_fixed_price_policy(quote_price: Double) = {
-    profit = quote_price - cost
-
+  def compute_profit_by_fixed_price_policy(quote_price: Double):Double = {
+     quote_price - cost
   }
+  
+  def compute_data_value(client_q_ir:Double,delta_t:Double,client_q_la:Double) = {
+    data_value = client_q_ir + delta_t + client_q_la
+  }
+ 
 
 }

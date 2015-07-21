@@ -17,11 +17,14 @@ object Main {
       
       val client = new Client
       client.node_info.updated("num", i.toString())
-      client.compute_profit_by_fixed_price_policy(server.get_fixed_quote_price)
-      
-      clients += client
-    
-    
+      if (client.compare_least_requirement(server.get_least_recognition, server.get_least_time, server.get_least_accuracy)){
+         if (client.compute_profit_by_fixed_price_policy(server.get_fixed_quote_price) > 0 ){
+           clients += client
+         }
+      }
+      server.get_top_n_client(clients)
+        
+     
     }
 
    

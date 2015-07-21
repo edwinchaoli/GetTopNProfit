@@ -7,3 +7,9 @@ eclipse
 update
 eclipse
 exit
+update
+:q
+quit
+:q
+:exit
+exit

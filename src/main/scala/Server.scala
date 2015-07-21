@@ -1,5 +1,6 @@
 package exp
 
+import scala.collection.mutable.ArrayBuffer
 
 class Server {
   private val quote_price = 5.0 //一口价
@@ -20,8 +21,14 @@ class Server {
   
   
   
-  def get_top_n_client(clients:Array[Client])={
-    
+  def get_top_n_client(clients:ArrayBuffer[Client],n:Int):Array[Client]={
+    val sorted_clients = clients.sortWith((a,b)=>a.DataValue > b.DataValue)
+    val top_array_length = if (n > clients.length) clients.length else n
+    val top_n_client = new Array[Client](top_array_length)
+    for (i <- 0 until top_array_length){
+      top_n_client(i) = sorted_clients(i)
+    }
+    top_n_client
   }
   
 

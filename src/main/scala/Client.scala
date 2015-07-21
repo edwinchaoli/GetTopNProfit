@@ -6,29 +6,32 @@ package exp
  */
 
 import scala.math._
-import scala.util._
 
 import scala.util._
+
+import scala.collection.mutable.Map
 
 class Client {
   
-  val node_info:Map[String,String] = Map(
+  val node_info:scala.collection.mutable.Map[String,String] = scala.collection.mutable.Map(
     "num" -> ""    
   
   )
   
 
-  val cost_pam:Map[String,Double] = Map(
+  val cost_pam:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
    
     "flow_q_is" -> Random.nextDouble(),
+    "bandwidth_delta_t" -> 0.0,
     "flow_weight" -> Random.nextDouble(),
     "bandwidth_weight" -> Random.nextDouble(),
     "privacy_weight" -> Random.nextDouble()
     
   )
   
-  val data_quality:Map[String,Double] = Map(
+  val data_quality:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
     "recognition" -> 0.0,
+    "realtime" -> cost_pam("bandwidth_delta_t"),
     "accuracy" -> 0.0
   )
   
@@ -73,18 +76,28 @@ class Client {
     val delta_2 = 0.5
 
     val self_q_ir = 1 - math.pow(delta_1, cost_pam("flow_q_is") / delta_2)
+    val self_q_la = 0.5
 
-    val satisfied = (self_q_ir > q_ir)
+    data_quality("recognition")=self_q_ir
+    
+
+    data_quality("accuracy") = self_q_la
+
+    cost_pam("bandwidth_delta_t") = delta_t
+
+    println("self_q_ir = " + self_q_ir +  ", q_ir = " + q_ir + ", self_q_la = " + self_q_la + ", q_la = " + q_la)
+    val satisfied = (self_q_ir >= q_ir && self_q_la >= q_la)
 
     satisfied
   }
 
   def compute_profit_by_fixed_price_policy(quote_price: Double):Double = {
-     quote_price - cost
+      profit = quote_price - cost
+      profit
   }
   
-  def compute_data_value(client_q_ir:Double,delta_t:Double,client_q_la:Double) = {
-    data_value = client_q_ir + delta_t + client_q_la
+  def compute_data_value = {
+    data_value = data_quality("recognition") + data_quality("realtime") + data_quality("accuracy")
   }
  
 

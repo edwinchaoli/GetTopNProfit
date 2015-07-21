@@ -35,7 +35,7 @@ object ImportData {
 
   }
   
-  
+  /*
   def main(args:Array[String]){
     val file = Source.fromFile("taxi-test")
     for(line<-file.getLines()){
@@ -43,7 +43,7 @@ object ImportData {
     }
     println("Import Done!")
   }
-  
+  */
   
   
 }

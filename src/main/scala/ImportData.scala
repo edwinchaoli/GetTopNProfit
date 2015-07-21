@@ -1,10 +1,15 @@
+package exp
+
 import com.mongodb.casbah.Imports._
 import scala.io.Source
 import java.text.SimpleDateFormat
 
+import exp._
+
 /**
  * @author Administrator
  */
+
 
 
 object ImportData {
@@ -30,14 +35,14 @@ object ImportData {
 
   }
   
- /* 
+  
   def main(args:Array[String]){
     val file = Source.fromFile("taxi-test")
     for(line<-file.getLines()){
       import_data_from_line(line)
     }
     println("Import Done!")
-  }*/
+  }
   
   
   

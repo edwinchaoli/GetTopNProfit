@@ -14,13 +14,11 @@ import scala.collection.mutable.Map
 class Client {
   
   val node_info:scala.collection.mutable.Map[String,String] = scala.collection.mutable.Map(
-    "num" -> ""    
-  
+    "num" -> ""     
   )
   
 
   val cost_pam:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
-   
     "flow_q_is" -> Random.nextDouble(),
     "bandwidth_delta_t" -> 0.0,
     "flow_weight" -> Random.nextDouble(),
@@ -39,17 +37,9 @@ class Client {
   
   
   private val flow_w_f = 1.0
- // private val flow_q_is = Random.nextDouble()
   private val flow_w_t = 1.0
   private val flow_w_r = 1.0
 
-  /*
-  private val flow_weight = Random.nextDouble()
-  private val bandwidth_weight = Random.nextDouble()
-  private val privacy_weight = Random.nextDouble()
-  */
-  
- // private val bandwidth_delta_t = 1.0
 
    private var profit:Double = 0.0
    def Profit = profit

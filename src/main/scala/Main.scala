@@ -8,7 +8,17 @@ import exp._
 
 object Main {
 
-  def main(args: Array[String]) {
+  def exp_1(times:Int){
+    val client = new Client
+    
+    for (i <- 0 until times){
+      
+      
+    }
+    
+  }
+  
+  def exp_2(filname:String){
     val server = new Server
     val clients = new ArrayBuffer[Client]()
 
@@ -28,6 +38,12 @@ object Main {
     val top_n_client = server.get_top_n_client(clients, 4)
 
     top_n_client.foreach { client => println(client.node_info("num") + ", datavalue = " + client.DataValue + " profit = " + client.Profit) }
+    
+    
+  }
+  
+  def main(args: Array[String]) {
+    
 
   }
 }

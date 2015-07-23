@@ -2,19 +2,19 @@ package exp
 
 import scala.collection.mutable.ArrayBuffer
 
-class Server {
-  private val quote_price = 5.0 //一口价
-  
-  private val q_ir = 0.5 //分辨率最低要求
-  private val delta_t = 0.5 //实时性最低要求
-  private val q_la = 0.5 //准确性最低要求
-  
-  
-  
-  
+
+
+/**
+ * @param quote_price 一口价
+ * @param q_ir 分辨率最低要求
+ * @param delta_t 实时性最低要求
+ * @param q_la  准确性最低要求*
+ *
+ */
+class Server(quote_price:Double,q_ir:Double,delta_t:Double,q_la:Double) {
+ 
   def get_fixed_quote_price = quote_price
 
-  
   def get_least_recognition = q_ir
   def get_least_time = delta_t
   def get_least_accuracy = q_la

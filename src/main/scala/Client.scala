@@ -50,18 +50,21 @@ class Client {
   def flow_cost: Double =
     math.pow((flow_w_f * cost_pam("flow_q_is") + flow_w_t), flow_w_r)
   
-  val bandwidth_cost: Double =
+  def bandwidth_cost: Double = { 
     flow_cost / cost_pam("bandwidth_delta_t")
-
-  val privacy_cost: Double =
+    
+  }
+      
+  def privacy_cost: Double =
     1.0
 
   def cost: Double = {
-    cost_pam("flow_weight") * flow_cost + cost_pam("bandwidth_weight") * bandwidth_cost
-    cost_pam("privacy_weight") * privacy_cost
+    cost_pam("flow_weight") * flow_cost + cost_pam("bandwidth_weight") * bandwidth_cost + cost_pam("privacy_weight") * privacy_cost
+    
   }
 
   def compare_least_requirement(q_ir: Double, delta_t: Double, q_la: Double) = {
+   
     val delta_1 = 0.5
     val delta_2 = 0.5
 
@@ -74,8 +77,7 @@ class Client {
     data_quality("accuracy") = self_q_la
 
     cost_pam("bandwidth_delta_t") = delta_t
-
-    println("self_q_ir = " + self_q_ir +  ", q_ir = " + q_ir + ", self_q_la = " + self_q_la + ", q_la = " + q_la)
+    
     val satisfied = (self_q_ir >= q_ir && self_q_la >= q_la)
 
     satisfied
@@ -84,6 +86,7 @@ class Client {
   def compute_profit_by_fixed_price_policy(quote_price: Double):Double = {
       profit = quote_price - cost
       profit
+     
   }
   
   def compute_data_value = {

@@ -19,27 +19,22 @@ class Client {
   
 
   val cost_pam:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
-    "flow_q_is" -> Random.nextDouble(),
-    "bandwidth_delta_t" -> 0.0,
-    "flow_weight" -> Random.nextDouble(),
-    "bandwidth_weight" -> Random.nextDouble(),
-    "privacy_weight" -> Random.nextDouble()
+    "flow_irs" -> Random.nextDouble(),
+    "bandwidth_delta_t" -> 0.5,
+    "privacy_d" -> 4,
+    "flow_weight" -> 1,
+    "bandwidth_weight" -> 1,
+    "privacy_weight" -> 1
     
   )
   
   val data_quality:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
     "recognition" -> 0.0,
-    "realtime" -> cost_pam("bandwidth_delta_t"),
+    "realtime" -> 0.0,
     "accuracy" -> 0.0
   )
   
   
-  
-  
-  private val flow_w_f = 1.0
-  private val flow_w_t = 1.0
-  private val flow_w_r = 1.0
-
 
    private var profit:Double = 0.0
    def Profit = profit
@@ -48,7 +43,7 @@ class Client {
   
  
   def flow_cost: Double =
-    math.pow((flow_w_f * cost_pam("flow_q_is") + flow_w_t), flow_w_r)
+    0.138 * cost_pam("flow_irs")
   
   def bandwidth_cost: Double = { 
     flow_cost / cost_pam("bandwidth_delta_t")
@@ -56,7 +51,7 @@ class Client {
   }
       
   def privacy_cost: Double =
-    1.0
+    math.pow(math.E, -math.Pi * cost_pam("d") * cost_pam("d") ) * (math.pow(math.E, math.Pi * cost_pam("d") * cost_pam("d") ) - 1) / (math.Pi * cost_pam("d"))
 
   def cost: Double = {
     cost_pam("flow_weight") * flow_cost + cost_pam("bandwidth_weight") * bandwidth_cost + cost_pam("privacy_weight") * privacy_cost

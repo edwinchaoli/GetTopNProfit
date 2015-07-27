@@ -1,15 +1,70 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0m	removed:Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\Cost.class, D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData$.class, D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\ImportData.class, D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes\Server.class)[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	product: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala)[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala, D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 4 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 466d519f, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_40\lib\resources.jar;C:\Program Files\Java\jre1.8.0_40\lib\rt.jar;C:\Program Files\Java\jre1.8.0_40\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_40\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_40\lib\jce.jar;C:\Program Files\Java\jre1.8.0_40\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_40\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_40\classes;D:\Work\Workspace\ivy\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	D:\Work\Workspace\Scala\GetTopNProfit\target\scala-2.11\classes;D:\Work\Workspace\ivy\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-2.8.1.jar;D:\Work\Workspace\ivy\cache\com.github.nscala-time\nscala-time_2.11\jars\nscala-time_2.11-1.0.0.jar;D:\Work\Workspace\ivy\cache\joda-time\joda-time\jars\joda-time-2.3.jar;D:\Work\Workspace\ivy\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar;D:\Work\Workspace\ivy\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.6.0.jar;D:\Work\Workspace\ivy\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.1.jar;D:\Work\Workspace\ivy\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-2.8.1.jar;D:\Work\Workspace\ivy\cache\org.mongodb\casbah-query_2.11\jars\casbah-query_2.11-2.8.1.jar;D:\Work\Workspace\ivy\cache\org.mongodb\casbah-gridfs_2.11\jars\casbah-gridfs_2.11-2.8.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 11.911706563 s[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, exp_2, ==, clone, Main, toString, !=, exp_1, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Cost.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, compute_profile_policy_fixed_price, equals, asInstanceOf, bandwidth_cost, synchronized, $isInstanceOf, bandwidth_delta_t, privacy_cost, notifyAll, isInstanceOf, <init>, cost, ==, flow_q_is, flow_w_f, clone, toString, flow_cost, !=, getClass, Cost, flow_w_t, flow_w_r, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Client.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, data_value, wait, $asInstanceOf, equals, profit, data_quality, asInstanceOf, bandwidth_cost, cost_pam, synchronized, $isInstanceOf, node_info, Profit, compute_data_value, privacy_cost, notifyAll, isInstanceOf, <init>, cost, ==, flow_w_f, clone, compute_profit_by_fixed_price_policy, compare_least_requirement, DataValue, toString, flow_cost, !=, getClass, flow_w_t, flow_w_r, Client, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala: Set(profit, cost_pam, node_info, Profit, compute_data_value, <init>, cost, compute_profit_by_fixed_price_policy, compare_least_requirement, DataValue, toString, Client)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala: Set(<init>, DataValue, Client)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Server.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, quote_price, wait, $asInstanceOf, get_least_accuracy, Server, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, get_fixed_quote_price, <init>, ==, clone, toString, !=, getClass, ne, get_top_n_client, get_least_time, eq, ##, finalize, hashCode, get_least_recognition.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\Main.scala: Set(get_least_accuracy, Server, get_fixed_quote_price, <init>, toString, get_top_n_client, get_least_time, get_least_recognition)[0m
+[0m[[0mdebug[0m] [0mInvalidating D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala)[0m
+[0m[[0mdebug[0m] [0mThe D:\Work\Workspace\Scala\GetTopNProfit\src\main\scala\ImportData.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, coll, asInstanceOf, mongoClient, synchronized, db, $isInstanceOf, main, notifyAll, isInstanceOf, ImportData, ==, import_data_from_line, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

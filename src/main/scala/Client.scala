@@ -23,7 +23,7 @@ class Client {
   
 
   val cost_pam:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
-    "total_flow" -> 0,0, 
+    "total_flow" -> 0.0, 
     "flow_irs" -> 10,
     "bandwidth_tin" -> 0.5,
     "bandwidth_threshold_tin" -> 1,

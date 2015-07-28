@@ -17,16 +17,31 @@ class Client {
     "num" -> ""     
   )
   
+  
+  
+  
+  
 
   val cost_pam:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
-    "flow_irs" -> Random.nextDouble(),
-    "bandwidth_delta_t" -> 0.5,
-    "privacy_d" -> 4,
+    "total_flow" -> 0,0, 
+    "flow_irs" -> 10,
+    "bandwidth_tin" -> 0.5,
+    "bandwidth_threshold_tin" -> 1,
+    
+    "privacy_lamda" -> 0.01,
+    "privacy_cp" -> 10,
+    "privacy_d" -> 20,
+    "privacy_threshold_d" -> 40,
     "flow_weight" -> 1,
     "bandwidth_weight" -> 1,
-    "privacy_weight" -> 1
+    "privacy_weight" -> 1,
+    "cost_theta" -> 1
     
   )
+  
+  
+ 
+  
   
   val data_quality:scala.collection.mutable.Map[String,Double] = scala.collection.mutable.Map(
     "recognition" -> 0.0,
@@ -40,41 +55,49 @@ class Client {
    def Profit = profit
    private var data_value = 0.0
    def DataValue = data_value
+   
+   var can_upload = false
+   
   
  
   def flow_cost: Double =
     0.138 * cost_pam("flow_irs")
   
   def bandwidth_cost: Double = { 
-    flow_cost / cost_pam("bandwidth_delta_t")
+    flow_cost / cost_pam("bandwidth_tin")
     
   }
       
   def privacy_cost: Double =
-    math.pow(math.E, -math.Pi * cost_pam("d") * cost_pam("d") ) * (math.pow(math.E, math.Pi * cost_pam("d") * cost_pam("d") ) - 1) / (math.Pi * cost_pam("d"))
+    cost_pam("privacy_cp") * math.pow(math.E, -math.Pi * cost_pam("privacy_lamda") *  cost_pam("privacy_d") * cost_pam("privacy_d") ) * (math.pow(math.E, math.Pi * cost_pam("privacy_lamda") *  cost_pam("privacy_d") * cost_pam("privacy_d") ) - 1) / (math.Pi * cost_pam("privacy_lamda") * cost_pam("privacy_d") * cost_pam("privacy_d"))
 
   def cost: Double = {
-    cost_pam("flow_weight") * flow_cost + cost_pam("bandwidth_weight") * bandwidth_cost + cost_pam("privacy_weight") * privacy_cost
-    
+    (cost_pam("flow_weight") * flow_cost + cost_pam("bandwidth_weight") * bandwidth_cost + cost_pam("privacy_weight") * privacy_cost)/cost_pam("cost_theta")
   }
-
-  def compare_least_requirement(q_ir: Double, delta_t: Double, q_la: Double) = {
-   
-    val delta_1 = 0.5
-    val delta_2 = 0.5
-
-    val self_q_ir = 1 - math.pow(delta_1, cost_pam("flow_q_is") / delta_2)
-    val self_q_la = 0.5
-
-    data_quality("recognition")=self_q_ir
+  
+  
+  def recognition_quality:Double = {
+    val delta_1 = 0.9997
+    val delta_2 = 0.3097
+    data_quality("recognition_quality") = 1 - math.pow(delta_1, 1000000 * cost_pam("flow_irs") / delta_2)
+    data_quality("recognition_quality")
+  }
+  
+  
+  def realtime_quality:Double = {
+    data_quality("realtime") = 1 - cost_pam("bandwidth_tin") / cost_pam("bandwidth_threshold_tin")
+    data_quality("realtime")
+  }
+  
+  def privacy_quality:Double = {
+    data_quality("accuracy") = 1 - cost_pam("privacy_d") / cost_pam("privacy_threshold_d")
+    data_quality("accuracy") 
+  }
     
+  
 
-    data_quality("accuracy") = self_q_la
-
-    cost_pam("bandwidth_delta_t") = delta_t
-    
-    val satisfied = (self_q_ir >= q_ir && self_q_la >= q_la)
-
+  def compare_least_requirement(q_ir: Double, q_rt: Double, q_la: Double) = {
+    val satisfied = (recognition_quality >= q_ir &&  realtime_quality >= q_rt &&  privacy_quality >= q_la )
     satisfied
   }
 
@@ -84,8 +107,9 @@ class Client {
      
   }
   
-  def compute_data_value = {
-    data_value = data_quality("recognition") + data_quality("realtime") + data_quality("accuracy")
+  def compute_data_value:Double = {
+    data_value = math.log(1 + recognition_quality) + math.log(1 + realtime_quality)+ math.log(1 +privacy_quality)
+    data_value
   }
  
 
